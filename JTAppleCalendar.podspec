@@ -15,5 +15,15 @@ A highly configurable Apple calendar control. Contains features like boundary da
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
 
-  s.source_files = 'Sources/*.swift'
+  s.default_subspec = "Core"
+  s.subspec "Core" do |ss|
+    ss.source_files = 'Sources/*.swift'
+    ss.framework  = "UIKit"
+  end
+
+  s.subspec "RxSwift" do |ss|
+    ss.source_files = 'Sources/RxSwift/*.swift'
+    ss.dependency "RxSwift"
+    ss.dependency "JTAppleCalendar/Core"
+  end
 end
