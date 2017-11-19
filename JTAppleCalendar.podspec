@@ -23,7 +23,8 @@ A highly configurable Apple calendar control. Contains features like boundary da
 
   s.subspec "RxSwift" do |ss|
     ss.source_files = 'Sources/RxSwift/*.swift'
-    ss.dependency "RxSwift"
+    ss.dependency "RxSwift", "~> 4.0"
+    ss.dependency "RxCocoa", "~> 4.0"
     ss.dependency "JTAppleCalendar/Core"
   end
 end

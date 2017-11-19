@@ -1,0 +1,6 @@
+framework module Pods_JTAppleCalendar_tvOS_Example {
+  umbrella header "Pods-JTAppleCalendar tvOS Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,4 +4,10 @@
    <FileRef
       location = "container:JTAppleCalendar.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:JTAppleCalendar.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -1,0 +1,25 @@
+PODS:
+  - JTAppleCalendar/Core (7.1.4)
+  - JTAppleCalendar/RxSwift (7.1.4):
+    - JTAppleCalendar/Core
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+
+DEPENDENCIES:
+  - JTAppleCalendar/RxSwift (from `./`)
+
+EXTERNAL SOURCES:
+  JTAppleCalendar:
+    :path: ./
+
+SPEC CHECKSUMS:
+  JTAppleCalendar: b1e20481d794dc4d802c49b6e1ffe4ba5de2ded7
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+
+PODFILE CHECKSUM: b0e348927416583ebe9d20331aaf5a5824816cf3
+
+COCOAPODS: 1.3.1
